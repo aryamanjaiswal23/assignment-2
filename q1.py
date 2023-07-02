@@ -2,6 +2,7 @@ import nltk
 from nltk.corpus import stopwords
 from collections import Counter
 
+# uncomment these while running for the first time
 # nltk.download("punkt")
 # nltk.download("stopwords")
 

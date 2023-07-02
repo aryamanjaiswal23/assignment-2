@@ -50,5 +50,5 @@ print("Circle Area:", circle.get_area())
 triangle = Triangle(4, 6)
 print("Triangle Area:", triangle.get_area())
 
-# t = Triangle(-1, -1)
-# print(t.get_area())
+t = Triangle(-1, -1)
+print(t.get_area())

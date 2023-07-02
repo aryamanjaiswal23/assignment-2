@@ -27,7 +27,7 @@ def organize_files(dir):
             except Exception as e:
                 print(f"Error moving file '{filename}': {str(e)}")
 
-    print("Files organized successfully!")
+    print("Files organized successfully")
     print("Total files moved:", total_files_moved)
     print("File counts by extension:")
     for extension, count in file_counts.items():
@@ -38,5 +38,3 @@ dir = input("Enter the dir path: ")
 organize_files(dir)
 
 
-# if __name__ == "__main__":
-#     main()
